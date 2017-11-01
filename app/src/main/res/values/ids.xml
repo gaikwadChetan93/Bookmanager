@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="book_list_item_title" type="id">title</item>
+    <item name="book_list_item_authors" type="id">auther</item>
+</resources>
