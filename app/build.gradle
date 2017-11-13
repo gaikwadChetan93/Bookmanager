@@ -59,4 +59,7 @@ dependencies {
         exclude module: 'recyclerview-v7'
     }
 
+    //Mockito
+    testCompile "org.mockito:mockito-core:2.6.8"
+
 }
