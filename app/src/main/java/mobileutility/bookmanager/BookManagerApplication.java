@@ -19,7 +19,7 @@ public class BookManagerApplication extends Application {
         super.onCreate(); 
 
         mNetComponent = DaggerNetComponent.builder()
-                // list of modules that are part of this component need to be created here too
+                // list of modules that are part of NetComponent need to be created here too
                 .appModule(new AppModule(this)) // This also corresponds to the name of your module: %component_name%Module
                 .netModule(new NetModule(BOOKS_ENDPOINT))
                 .build();

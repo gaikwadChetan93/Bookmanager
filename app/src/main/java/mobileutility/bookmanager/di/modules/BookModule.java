@@ -1,16 +1,11 @@
 package mobileutility.bookmanager.di.modules;
 
-import android.app.Application;
-import android.app.ProgressDialog;
-
-import javax.inject.Singleton;
-
 import dagger.Module;
 import dagger.Provides;
 import mobileutility.bookmanager.di.scopes.UserScope;
 import mobileutility.bookmanager.network.interfaces.BookApiInterface;
 import retrofit2.Retrofit;
-
+//Dependency provider
 @Module
 public class BookModule {
 

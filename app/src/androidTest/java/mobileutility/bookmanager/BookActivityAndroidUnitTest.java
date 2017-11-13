@@ -62,7 +62,8 @@ public class BookActivityAndroidUnitTest extends ActivityInstrumentationTestCase
     }
 
     /**
-     * Test 1 Add book and check if added
+     * Test 1
+     * Add book and check if added
      * Press add button
      * fill details
      * click ok
@@ -180,7 +181,6 @@ public class BookActivityAndroidUnitTest extends ActivityInstrumentationTestCase
 
         // Clean up
         Espresso.unregisterIdlingResources(idlingResource);
-
     }
 
     /**

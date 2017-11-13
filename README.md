@@ -14,4 +14,4 @@ TestCases - Espresso
 
 Api services - Retrofit
 
-View binding - Butterknift
+View binding - Butterknife
