@@ -6,7 +6,7 @@ import javax.inject.Singleton;
 
 import dagger.Module;
 import dagger.Provides;
-
+//Dependency provider
 @Module
 public class AppModule {
 

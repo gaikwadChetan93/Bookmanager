@@ -2,13 +2,13 @@ package mobileutility.bookmanager.di.components;
 
 import android.content.SharedPreferences;
 
-import com.squareup.okhttp.OkHttpClient;
 
 import javax.inject.Singleton;
 
 import dagger.Component;
 import mobileutility.bookmanager.di.modules.AppModule;
 import mobileutility.bookmanager.di.modules.NetModule;
+import okhttp3.OkHttpClient;
 import retrofit2.Retrofit;
 
 @Singleton

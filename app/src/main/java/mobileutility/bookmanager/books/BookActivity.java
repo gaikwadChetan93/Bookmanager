@@ -35,12 +35,9 @@ public class BookActivity extends AppCompatActivity {
     @BindView(R.id.add_book)  FloatingActionButton addNewBook;
     @BindView(R.id.toolbar)  Toolbar toolbar;
     @BindView(R.id.books_recyclerview)  RecyclerView mRecyclerView;
-    @BindView(R.id.delete_layout)
-    LinearLayout deleteLayout;
-    @Inject
-    Retrofit mRetrofit;
-    @Inject
-    BookApiInterface bookApiInterface;
+    @BindView(R.id.delete_layout) LinearLayout deleteLayout;
+    @Inject Retrofit mRetrofit;
+    @Inject BookApiInterface bookApiInterface;
     private ProgressDialog mProgressDialog;
     private static BookPresenter presenter;
 
